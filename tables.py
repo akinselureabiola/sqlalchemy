@@ -33,5 +33,3 @@ comments_table = Table(
     Column("comment",Text,nullable=False),
     Column("user_id", ForeignKey("users.id"))
 )
-
-hhdjdhjdjjdhhjdjh
